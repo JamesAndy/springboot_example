@@ -25,6 +25,14 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--lombok https://mvnrepository.com/artifact/org.projectlombok/lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <!--以下設定試打包時會自動引入-->
